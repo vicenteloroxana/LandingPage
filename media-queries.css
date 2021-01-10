@@ -1,0 +1,59 @@
+
+.hamburguesa {
+    width: 80px;
+    height: 80px;
+    display: none;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+}
+
+.hamburguesa>i {
+    font-size: 25px;
+    line-height: 80px;
+}
+@media screen and (max-width:600px) {
+    #video{
+        width: 100%;
+    }
+    .menu {
+        position: fixed;
+        background-color: #FE91B1;
+        top:0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        clip-path: circle(0.0% at 100% 0);
+
+    }
+    .menu a {
+        color:#fff;
+        font-weight: 550;
+    }
+    #nav-bar .menu-dos{
+        -webkit-clip-path: circle(150% at 100% 0);
+        clip-path: circle(150% at 100% 0);
+
+
+    }
+    .hamburguesa{
+        display: block;
+        
+    }
+    #precios{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        flex: 1 1 100%;
+        
+    }
+    #form{
+        width: 100%;
+    }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar" class="nav-bar1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <a href="#" class="vinculo-logo">
+                        <img id="header-img" src="img/logo.png" alt="">
+                        
+                    </a>
+                </div>
+                <div class="menu">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#presentacion" class="nav-link">Presentación</a>
+                    <a href="#precios" class="nav-link">Precios</a>
+                    <a href="#form" class="nav-link">Contacto</a>
+
+                </div>
+                <div class="hamburguesa">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        </div>
+
+    </header>
+    <main class="contenedor">
+        <section id="inicio">
+
+        </section>
+        <section id="presentacion">
+            <iframe id="video"  src="https://www.youtube.com/embed/G4nVCxMriTI" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+        </section>
+        <section id="precios">
+            <div class="card">
+                <h2 class="titulo">Beurer Ha20 Audifono</h2>
+                <div class="card-body">
+                    <span><strong>$600</strong></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero?</p>
+                </div>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <h2 class="titulo">Auriculares inalámbricos i7S TWS blanco</h2>
+                <div class="card-body">
+                    <span><strong>$1600</strong></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero?</p>
+                </div>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <h2 class="titulo">Auriculares Logitech H390 negro</h2>
+                <div class="card-body">
+                    <span><strong>$3600</strong></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero?</p>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+        </section>
+
+    </main>
+    <div class="contenedor">
+        <form action=" /register" method="POST" id="form">
+            <h2 class="titulo">Formulario de Contacto</h2>
+            <div class="contenedor-formulario">
+                <div class="contenedor-correo">
+                    
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" name ="nombre" id="nombre" placeholder="Ingrese su nombre">
+                    
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" name ="apellido" id="apellido" placeholder="Ingrese su apellido">
+                    
+                    <label for="email">Correo:</label><br>
+                    <input type="email" name ="email" id="email" placeholder="Ingrese su correo">
+                </div>
+                <br>
+                <div class="boton">
+                    <input type="submit" id="submit" class="btn">
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="partFooter">
+            <h4>Redes sociales</h4>
+            <div class="social-media">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy;Headphones | Vicentelo Roxana</h2>
+    </footer>
+    
+
+    <script src="main.js"></script>
+</body>
+
+</html>
